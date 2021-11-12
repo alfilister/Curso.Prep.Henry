@@ -1,0 +1,15 @@
+Explicación de conceptos:
+
+Variables: Son como rotulos que van a identificar cualquier tipo de información que se le asigne, dependiendo del tipo de datos que se usen pueden ser números, frases, caracteres, booleanos.
+
+Strings: Son los tipos de datos que van entre comillas ' ' y que se usan de esta forma mayormente para determinar texto literal.
+
+Funciones: Son acciones lógicas que se agrupan dentro de un nombre especifico, para ahorrar espacio de código y permitir mayor operabilidad al momento de requerir multiples veces una misma acción (Permitiendo que tengas que describir la forma de operar solo una vez y posteriormente definiendo únicamente la información que intervienen en caso de que así sea necesario).
+
+Argumentos: Son la información que según se haya diseñado la función se necesitará ingresar para dar el resultado esperado de la operación, de esta forma una función que agrupe un nombre y un apellido, para arrojar finalmente un 'nombre completo', deberá alimentarse de esos dos argumentos de tipo string (string1, string2).
+
+Return: Son el resultado esperado de las funciones, así mismo funcionan como un control en los flujos, determinando en qué momento ya el código debe dejar de ejecutarse y mostrar un resultado.
+
+Declaraciones 'if': Son las formas de realizar validaciones (confirmar si algo cumple o no una condición {>, <, ==, ===, !=, !==}) y arrojar un resultado cuando estas condiciones se cumplen, o cuando no.
+
+Valores booleanos ('true', 'false'): Son valores que resultan de validar operaciones o estados propios de las variables, son muy útiles al momento de indicar las acciones que se tomarán cuando un resultado sea el esperado y así mismo cuando se deba ejecutar algún otro código cuando no; combinado con el If pueden ser muy potentes frente a la lectura y toma de decisiones por parte del programa.
