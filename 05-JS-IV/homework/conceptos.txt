@@ -1,0 +1,7 @@
+Objetos: partiendo del hecho de que TODO en JavaScript funciona a partir de objetos, se describen como contenedores de diferentes tipos de datos; a diferencia de los arrays, los objetos contienen una serie de propiedades que pueden ser llamadas por el nombre puntual y no por el index (como usualmente buscabamos en los arrays); la nomenclatura al momento de declararlo es 'const nombreDelObjeto { propiedades manifestadas en key:value };
+
+Propiedades: un objeto puede almacenar propiedades que se asignan a través de un formato Key:Value, en el que el valor puede ser el mismo para varias 'llaves' pero los nombres dados a las 'llaves' deben ser únicos dentro de cada objeto; el número de propiedades puede ser variable y modificable a través de la ejecución,  almacenando todo tipo de datos posible.
+
+Métodos: Se le llama método a la ejecución se hace primero a través de almacenar la formula en dicho objeto (de la forma descrita en el apartado de propiedades key:value format) y posteriormente llamandola, mediante la nomenclatura nombreDelObjeto.nombreDelKeyQueContieneLaForumla(argumentos);
+
+Bucle 'For... in': Ya que los objetos no cuentan con los Index predefinidos [0,1,2,3...] y se cuenta es con las parejas key:values, no es posible usar el For loop ue itera sobre cada index según los parametros dados, en este caso JavaScript tiene una leve modificación, que es el For... in, recorriendo las keys del objeto con la siguiente nomenclatura / for (let key in usuario){ acciones a realizar }.
