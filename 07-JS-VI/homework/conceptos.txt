@@ -1,0 +1,9 @@
+Funciones CallBack (cb)
+
+Son funciones que se pasan como argumentos a otras funciones o métodos de arreglo, para el primer caso (funciones como argumentos de otras funciones) es importante tener claro que estas funciones pueden devolver una función, ejecutarla o guardarla en variables o cualquier otra estructura de datos.
+
+si una función realiza una tarea y necesita de argumentos, para evitar confusiones es necesario documentar los argumentos que se necesitan pasar a la función CallBack (Esto se hace mediante el uso de // al iniciar la línea de código) así se evitará que la función sea llamada sin los argumentos adecuados; así mismo estos argumentos deberán solicitarse dentro de la declaración de la función primaria.
+
+Para recorrer arreglos y ejecutar funciones definidas se puede usar el método .forEach() que permitirá ejecutar la función por cada elemento del array.
+
+las funciones .map() y .reduce() recorren igualmente todos los elementos de un array, siendo el primero una ejecución y un return por cada elemento iterado; mientras que para .reduce() solo se presentará un único resultado, producto de la interacción de los elementos iterados (interacción a definir en la formula, puede ser sumar, restar, entre otros).
